@@ -1,8 +1,15 @@
 #include <iostream>
 using namespace std;
 
+void greet();
+
 int main()
 {
-	cout << "Test";
+	greet();
 	return 0;
+}
+
+void greet()
+{
+	cout << "Test";
 }
