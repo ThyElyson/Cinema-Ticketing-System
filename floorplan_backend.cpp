@@ -15,11 +15,13 @@ int seats[5][8]=
 
 //Pre-Functions
 int row_conv(char row_input), column_conv(int column_input);
-void reserve_seat(int seats[5][8]);
+void reserve_seat(int seats[5][8]), show_seats();
+
 
 //Main Function
 int main()
 {
+	show_seats();
 	reserve_seat(seats);
 	return 0;
 }
@@ -67,7 +69,10 @@ void reserve_seat(int seats[5][8])
 	cin >> y;
 	seats[row_conv(x)][column_conv(y)] = {1};
 }
-
+void show_seats()
+{
+	cout << "\t" << endl;
+}
 
 
 
