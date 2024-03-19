@@ -54,5 +54,24 @@ int main ()
 	cout<<"_____    _____    _____    _____    _____    _____    _____    _____    _____    _____    _____    _____    _____    _____    _____    _____    _____"<<endl;
 	cout<<"|=^=|    |=^=|    |=^=|    |=^=|    |=^=|    |=^=|    |=^=|    |=^=|    |=^=|    |=^=|    |=^=|    |=^=|    |=^=|    |=^=|    |=^=|    |=^=|    |=^=|"<<endl;
 	cout<<"(   )    (   )    (   )    (   )    (   )    (   )    (   )    (   )    (   )    (   )    (   )    (   )    (   )    (   )    (   )    (   )    (   )"<<endl;
+	cout<<endl;
+	cout<<endl;
+	
+	cout<<"Chair Designs"<<endl<<endl;
+	cout<<"Large"<<endl;
+	cout<<"_____"<<endl;
+	cout<<"|=^=|"<<endl;
+	cout<<"(   )"<<endl;
+	cout<<endl;
+	
+	cout<<"Small"<<endl;
+	cout<<"___"<<endl;
+	cout<<"[ ] "<<endl;
+	cout<<endl;
+	
+	cout<<"Medium"<<endl;
+	cout<<"___"<<endl;
+	cout<<"( )"<<endl;
+	cout<<"---"<<endl;
 
 }
