@@ -1,0 +1,41 @@
+Initialize STime, Movie, SColumn, Calendar, CTime
+
+do
+Inputs Movie
+	if Movie = A
+		Movie = A
+		Proceed to STime
+	if Movie = B
+		Movie = B
+		Proceed to STime
+	if Movie = C
+		Movie = C
+		Proceed to STime
+	else
+		Output (Error Try Again)
+while Movie is not equal to A,B,C	
+
+do	
+Inputs STime
+	if STime = A
+		STime = Morning
+		Proceed to SColumn
+	else if STime = B
+		STime = Noon
+		Proceed to SColumn
+	else if STime = C
+		STime = Afternoon
+		Proceed to SColumn
+	else if STime = D
+		STime = Evening
+		Proceed to SColumn
+	else
+		Output (Error Try Again)
+while STime is not equal to A,B,C,D
+
+do
+Input SColumn
+
+TBE after Floor Plan Fished...
+
+
