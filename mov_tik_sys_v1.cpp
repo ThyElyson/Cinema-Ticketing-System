@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std; // TODO: add an input checker, make separate functions for every genre & age type, finish menu inputs
 
-void cls(), init_varb(), rset_varb(), npt_ckr(), shw_wlc_scr(), shw_bye_scr(), shw_ttl(), shw_int_pos(), mnu_fil();
+void cls(), init_varb(), rset_varb(), npt_ckr(), shw_wlc_scr(), shw_bye_scr(), shw_ttl(), shw_int_pos(), mnu_fil(), shw_sts();
 int mov_npt, tim_npt;
 string wlc_msg, bye_msg, mov_one, mov_two, mov_tre, gry(string gry_npt), bld_und_blk(string bld_und_blk_npt), itl(string itl_npt);
 bool wlc_npt, sys_stt;
@@ -9,6 +9,8 @@ char mnu_chc, flt_gnr, flt_age;
 
 int main()
 {
+	
+	
 	init_varb();
 	
 	do
@@ -67,6 +69,10 @@ void shw_wlc_scr()
 	cout << wlc_msg << endl;
 	cout << "\t\t\t\t\t\t  " << "Press \'1\' to enter:" << "\n\t\t\t\t\t\t\t   ";
 	cin >> wlc_npt;
+	if (wlc_npt == 1)
+		wlc_npt = true;
+	else
+		wlc_npt = false;
 }
 void shw_bye_scr()
 {
@@ -151,6 +157,12 @@ void mnu_fil()
 		default:
 			break;
 				}
+}
+void shw_sts()
+{
+	cout<<"        (=)     (=)     (=)     (=)          (=)     (=)     (=)     (=)     (=)     (=)     (=)     (=)     (=)          (=)     (=)     (=)     (=)"<<endl;
+	cout<<"       q| |p   q| |p   q| |p   q| |p        q| |p   q| |p   q| |p   q| |p   q| |p   q| |p   q| |p   q| |p   q| |p        q| |p   q| |p   q| |p   q| |p"<<endl;
+	cout<<"       M---M   M---M   M---M   M---M        M---M   M---M   M---M   M---M   M---M   M---M   M---M   M---M   M---M        M---M   M---M   M---M   M---M"<<endl<<endl;
 }
 
 
