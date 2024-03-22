@@ -2,9 +2,9 @@
 using namespace std; // TODO: add an input checker, make separate functions for every genre & age type, finish menu inputs
 
 void cls(), init_varb(), rset_varb(), npt_ckr(), shw_wlc_scr(), shw_bye_scr(), shw_ttl(), shw_int_pos(), mnu_fil(), shw_sts();
-int mov_npt, tim_npt;
+int mov_npt, tim_npt, wlc_npt;
 string wlc_msg, bye_msg, mov_one, mov_two, mov_tre, gry(string gry_npt), bld_und_blk(string bld_und_blk_npt), itl(string itl_npt);
-bool wlc_npt, sys_stt;
+bool sys_stt;
 char mnu_chc, flt_gnr, flt_age;
 
 int main()
@@ -16,7 +16,7 @@ int main()
 	do
 	{
 		shw_wlc_scr();
-		while (wlc_npt == true)
+		while (wlc_npt != 0)
 		{
 			shw_ttl();
 			shw_int_pos();
@@ -24,7 +24,7 @@ int main()
 			{
 				mnu_fil();
 			} while (mnu_chc =! 'P');
-			wlc_npt = false;
+			wlc_npt = 0;
 		}
 		shw_bye_scr();
 		rset_varb();
@@ -70,9 +70,9 @@ void shw_wlc_scr()
 	cout << "\t\t\t\t\t\t  " << "Press \'1\' to enter:" << "\n\t\t\t\t\t\t\t   ";
 	cin >> wlc_npt;
 	if (wlc_npt == 1)
-		wlc_npt = true;
+		wlc_npt = 1;
 	else
-		wlc_npt = false;
+		wlc_npt = 0;
 }
 void shw_bye_scr()
 {
@@ -82,7 +82,7 @@ void shw_bye_scr()
 	cout << "\t\t\t\t\t\t\t\t      " << "Press \'1\' to leave:" << "\n\t\t\t\t\t\t\t\t\t       ";
 	cin >> sys_stt;
 	if (sys_stt == 1)
-		sys_stt = true;
+		sys_stt = 1;
 	else 
 		sys_stt = 0;
 }
