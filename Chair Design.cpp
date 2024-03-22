@@ -73,5 +73,24 @@ int main ()
 	cout<<"___"<<endl;
 	cout<<"( )"<<endl;
 	cout<<"---"<<endl;
+	
+	cout<<endl<<endl;
+	
+	cout<<"Others"<<endl;
+	cout<<" {  } "<<endl;
+	cout<<" |  | "<<endl;
+	cout<<"I====I"<<endl<<endl;
+	
+	cout<<" {  } "<<endl;
+	cout<<" |  | "<<endl;
+	cout<<"I----I"<<endl<<endl;
+	
+	cout<<" {  } "<<endl;
+	cout<<" |  | "<<endl;
+	cout<<"I____I"<<endl<<endl;
+	
+	cout<<" (==) "<<endl;
+	cout<<"q|  |p "<<endl;
+	cout<<"M----M"<<endl<<endl;
 
 }
