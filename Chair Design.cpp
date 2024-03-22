@@ -89,8 +89,43 @@ int main ()
 	cout<<" |  | "<<endl;
 	cout<<"I____I"<<endl<<endl;
 	
-	cout<<" (==) "<<endl;
-	cout<<"q|  |p "<<endl;
-	cout<<"M----M"<<endl<<endl;
+	cout<<" (=) "<<endl;
+	cout<<"q| |p "<<endl;
+	cout<<"M---M"<<endl<<endl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
