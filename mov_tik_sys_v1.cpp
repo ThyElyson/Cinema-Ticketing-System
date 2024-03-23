@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std; // TODO: add an input checker, make separate functions for every genre & age type, finish menu inputs, color inputer
+using namespace std; // TODO: add an input checker, make separate functions for every genre & age type, finish menu inputs, color inputer, reservation editor, movie picker
 
 void cls(), init_varb(), rset_varb(), npt_ckr(), shw_wlc_scr(), shw_bye_scr(), shw_ttl(), shw_int_pos(), mnu_fil(), shw_sts(), sts_fil(), sts_npt();
 int mov_npt, tim_npt, wlc_npt, sts_cnt=0;
