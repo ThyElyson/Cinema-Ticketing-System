@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std; // TODO: add an input checker, make separate functions for every genre & age type, finish menu inputs, color inputer, reservation editor, movie picker
 
-void cls(), init_varb(), rset_varb(), npt_ckr(), shw_wlc_scr(), shw_bye_scr(), shw_ttl(), shw_int_pos(), mnu_fil(), shw_sts(), sts_fil(), sts_npt();
+void cls(), init_varb(), rset_varb(), npt_ckr(), shw_wlc_scr(), shw_bye_scr(), shw_ttl(), shw_int_pos(), mnu_fil(), shw_sts(), sts_fil(), sts_npt(), chr_fil();
 int mov_npt, tim_npt, wlc_npt, sts_cnt=0;
 string wlc_msg, bye_msg, mov_one, mov_two, mov_tre, rst_clr="\033[0m", sts_msg, sts_chc, res_chc, gry(string gry_npt), bld_und_blk(string bld_und_blk_npt), itl(string itl_npt);
 string clra1, clra2, clra3, clra4, clra5, clra6, clra7, clra8, clra9, clra10, clra11, clra12, clra13, clra14, clra15, clra16, clra17, clrb1, clrb2, clrb3, clrb4, clrb5, clrb6, clrb7, clrb8, clrb9, clrb10, clrb11, clrb12, clrb13, clrb14, clrb15, clrb16, clrb17, clrc1, clrc2, clrc3, clrc4, clrc5, clrc6, clrc7, clrc8, clrc9, clrc10, clrc11, clrc12, clrc13, clrc14, clrc15, clrc16, clrc17, clrd1, clrd2, clrd3, clrd4, clrd5, clrd6, clrd7, clrd8, clrd9, clrd10, clrd11, clrd12, clrd13, clrd14, clrd15, clrd16, clrd17, clre1, clre2, clre3, clre4, clre5, clre6, clre7, clre8, clre9, clre10, clre11, clre12, clre13, clre14, clre15, clre16, clre17, clrf1, clrf2, clrf3, clrf4, clrf5, clrf6, clrf7, clrf8, clrf9, clrf10, clrf11, clrf12, clrf13, clrf14, clrf15, clrf16, clrf17, clrg1, clrg2, clrg3, clrg4, clrg5, clrg6, clrg7, clrg8, clrg9, clrg10, clrg11, clrg12, clrg13, clrg14, clrg15, clrg16, clrg17;
@@ -466,7 +466,7 @@ void sts_fil()
 			cin >> res_chc;
 			chr_fil();
 			sts_msg = res_chc + " has been added to your reserved seat/s.     Enter \'S\' -- \033[3mStop picking seats\033[0m";
-		} while (res_chc != "O");
+		} while (res_chc!= "O");
 	}
 	else if (sts_chc == "E" || sts_chc == "e")
 	{
