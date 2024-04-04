@@ -36,7 +36,7 @@ int main()
 				shw_sts();
 				sts_npt();
 				sts_fil();
-			} while (sts_chc != "P");
+			} while (sts_chc != "S" && sts_chc != "s");
 			wlc_npt = 0;
 		}
 		shw_bye_scr();
