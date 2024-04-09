@@ -849,6 +849,17 @@ void filter_user_choice()
 			   	{
 		    		message = "Thank you for your purchase. \n Please take your $" + to_string( stoi(user_choice) - (23*seats_reserved) ) + " change.";
    		 			choices = "Enter any key to leave the app.";
+   		 			
+   		 			for (int i; i != 26; i++)
+   		 			{
+   		 				if (seat_status[][]== 1)
+   		 				{
+   		 					cout << "\033[34m";
+   		 					seat_status = 2;
+						}
+						
+					}
+   		 			
    		 			payment_mode = false;
    		 			exit_mode = true;
    	 			}
