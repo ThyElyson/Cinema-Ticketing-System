@@ -658,6 +658,7 @@ void filter_user_choice()
 		{
 			remove_mode = false;
 			reservation_mode = true;
+			choices = "Example: \'A1\' \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
 		}
 		else
 		{
@@ -672,127 +673,127 @@ void filter_user_choice()
 			else if (seats_status[seat_name_converter(seat_name_converter_char_input) - 1][seat_name_converter_int - 1] == 1)
 			{
 				seats_status[seat_name_converter(seat_name_converter_char_input) - 1][seat_name_converter_int - 1] = 0;
-                if (seat_name_converter_char_input == 'a' && seat_name_converter_int == 1)
+                if (seat_name_converter_char_input == 'a' && seat_name_converter_int == 1 || seat_name_converter_char_input == 'A' && seat_name_converter_int == 1)
                 {
                         clra1 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'a' && seat_name_converter_int == 2)
+                else if (seat_name_converter_char_input == 'a' && seat_name_converter_int == 2 || seat_name_converter_char_input == 'A' && seat_name_converter_int == 2)
                 {
                         clra2 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'a' && seat_name_converter_int == 3)
+                else if (seat_name_converter_char_input == 'a' && seat_name_converter_int == 3 || seat_name_converter_char_input == 'A' && seat_name_converter_int == 3)
                 {
                         clra3 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'a' && seat_name_converter_int == 4)
+                else if (seat_name_converter_char_input == 'a' && seat_name_converter_int == 4 || seat_name_converter_char_input == 'A' && seat_name_converter_int == 4)
                 {
                         clra4 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'a' && seat_name_converter_int == 5)
+                else if (seat_name_converter_char_input == 'a' && seat_name_converter_int == 5 || seat_name_converter_char_input == 'A' && seat_name_converter_int == 5)
                 {
                         clra5 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'b' && seat_name_converter_int == 1)
+                else if (seat_name_converter_char_input == 'b' && seat_name_converter_int == 1 || seat_name_converter_char_input == 'B' && seat_name_converter_int == 1)
                 {
                         clrb1 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'b' && seat_name_converter_int == 2)
+                else if (seat_name_converter_char_input == 'b' && seat_name_converter_int == 2 || seat_name_converter_char_input == 'B' && seat_name_converter_int == 2)
                 {
                         clrb2 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'b' && seat_name_converter_int == 3)
+                else if (seat_name_converter_char_input == 'b' && seat_name_converter_int == 3 || seat_name_converter_char_input == 'B' && seat_name_converter_int == 3)
                 {
                         clrb3 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'b' && seat_name_converter_int == 4)
+                else if (seat_name_converter_char_input == 'b' && seat_name_converter_int == 4 || seat_name_converter_char_input == 'B' && seat_name_converter_int == 4)
                 {
                         clrb4 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'b' && seat_name_converter_int == 5)
+                else if (seat_name_converter_char_input == 'b' && seat_name_converter_int == 5 || seat_name_converter_char_input == 'B' && seat_name_converter_int == 5)
                 {
                         clrb5 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'c' && seat_name_converter_int == 1)
+                else if (seat_name_converter_char_input == 'c' && seat_name_converter_int == 1 || seat_name_converter_char_input == 'C' && seat_name_converter_int == 1)
                 {
                         clrc1 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'c' && seat_name_converter_int == 2)
+                else if (seat_name_converter_char_input == 'c' && seat_name_converter_int == 2 || seat_name_converter_char_input == 'C' && seat_name_converter_int == 2)
                 {
                         clrc2 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'c' && seat_name_converter_int == 3)
+                else if (seat_name_converter_char_input == 'c' && seat_name_converter_int == 3 || seat_name_converter_char_input == 'C' && seat_name_converter_int == 3)
                 {
                         clrc3 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'c' && seat_name_converter_int == 4)
+                else if (seat_name_converter_char_input == 'c' && seat_name_converter_int == 4 || seat_name_converter_char_input == 'C' && seat_name_converter_int == 4)
                 {
                         clrc4 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'c' && seat_name_converter_int == 5)
+                else if (seat_name_converter_char_input == 'c' && seat_name_converter_int == 5 || seat_name_converter_char_input == 'C' && seat_name_converter_int == 5)
                 {
                         clrc5 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'd' && seat_name_converter_int == 1)
+                else if (seat_name_converter_char_input == 'd' && seat_name_converter_int == 1 || seat_name_converter_char_input == 'D' && seat_name_converter_int == 1)
                 {
                         clrd1 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'd' && seat_name_converter_int == 2)
+                else if (seat_name_converter_char_input == 'd' && seat_name_converter_int == 2 || seat_name_converter_char_input == 'D' && seat_name_converter_int == 2)
                 {
                         clrd2 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'd' && seat_name_converter_int == 3)
+                else if (seat_name_converter_char_input == 'd' && seat_name_converter_int == 3 || seat_name_converter_char_input == 'D' && seat_name_converter_int == 3)
                 {
                         clrd3 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'd' && seat_name_converter_int == 4)
+                else if (seat_name_converter_char_input == 'd' && seat_name_converter_int == 4 || seat_name_converter_char_input == 'D' && seat_name_converter_int == 4)
                 {
                         clrd4 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'd' && seat_name_converter_int == 5)
+                else if (seat_name_converter_char_input == 'd' && seat_name_converter_int == 5 || seat_name_converter_char_input == 'D' && seat_name_converter_int == 5)
                 {
                         clrd5 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'e' && seat_name_converter_int == 1)
+                else if (seat_name_converter_char_input == 'e' && seat_name_converter_int == 1 || seat_name_converter_char_input == 'E' && seat_name_converter_int == 1)
                 {
                         clre1 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'e' && seat_name_converter_int == 2)
+                else if (seat_name_converter_char_input == 'e' && seat_name_converter_int == 2 || seat_name_converter_char_input == 'E' && seat_name_converter_int == 2)
                 {
                         clre2 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'e' && seat_name_converter_int == 3)
+                else if (seat_name_converter_char_input == 'e' && seat_name_converter_int == 3 || seat_name_converter_char_input == 'E' && seat_name_converter_int == 3)
                 {
                         clre3 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'e' && seat_name_converter_int == 4)
+                else if (seat_name_converter_char_input == 'e' && seat_name_converter_int == 4 || seat_name_converter_char_input == 'E' && seat_name_converter_int == 4)
                 {
                         clre4 = "\033[0m";
                         seats_reserved--;
                 }
-                else if (seat_name_converter_char_input == 'e' && seat_name_converter_int == 5)
+                else if (seat_name_converter_char_input == 'e' && seat_name_converter_int == 5 || seat_name_converter_char_input == 'E' && seat_name_converter_int == 1)
                 {
                         clre5 = "\033[0m";
                         seats_reserved--;
