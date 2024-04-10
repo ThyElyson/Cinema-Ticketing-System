@@ -505,8 +505,12 @@ void filter_user_choice()
         {
                 if (seats_status[0][0] == 1)
                 {
-                        choices = "Seat A1 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat A1 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[0][0] == 2)
+{
+        choices = "Seat A1 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clra1 = "\033[32m";
@@ -519,8 +523,12 @@ void filter_user_choice()
         {
                 if (seats_status[0][1] == 1)
                 {
-                        choices = "Seat A2 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat A2 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[0][1] == 2)
+{
+        choices = "Seat A2 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clra2 = "\033[32m";
@@ -533,8 +541,12 @@ void filter_user_choice()
         {
                 if (seats_status[0][2] == 1)
                 {
-                        choices = "Seat A3 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat A3 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[0][2] == 2)
+{
+        choices = "Seat A3 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clra3 = "\033[32m";
@@ -547,8 +559,12 @@ void filter_user_choice()
         {
                 if (seats_status[0][3] == 1)
                 {
-                        choices = "Seat A4 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat A4 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[0][3] == 2)
+{
+        choices = "Seat A4 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clra4 = "\033[32m";
@@ -561,8 +577,12 @@ void filter_user_choice()
         {
                 if (seats_status[0][4] == 1)
                 {
-                        choices = "Seat A5 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat A5 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[0][4] == 2)
+{
+        choices = "Seat A5 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clra5 = "\033[32m";
@@ -575,8 +595,12 @@ void filter_user_choice()
         {
                 if (seats_status[1][0] == 1)
                 {
-                        choices = "Seat B1 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat B1 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[1][0] == 2)
+{
+        choices = "Seat B1 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clrb1 = "\033[32m";
@@ -589,8 +613,12 @@ void filter_user_choice()
         {
                 if (seats_status[1][1] == 1)
                 {
-                        choices = "Seat B2 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat B2 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[1][1] == 2)
+{
+        choices = "Seat B2 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clrb2 = "\033[32m";
@@ -603,8 +631,12 @@ void filter_user_choice()
         {
                 if (seats_status[1][2] == 1)
                 {
-                        choices = "Seat B3 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat B3 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[1][2] == 2)
+{
+        choices = "Seat B3 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clrb3 = "\033[32m";
@@ -617,8 +649,12 @@ void filter_user_choice()
         {
                 if (seats_status[1][3] == 1)
                 {
-                        choices = "Seat B4 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat B4 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[1][3] == 2)
+{
+        choices = "Seat B4 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clrb4 = "\033[32m";
@@ -631,8 +667,12 @@ void filter_user_choice()
         {
                 if (seats_status[1][4] == 1)
                 {
-                        choices = "Seat B5 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat B5 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[1][4] == 2)
+{
+        choices = "Seat B5 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clrb5 = "\033[32m";
@@ -645,8 +685,12 @@ void filter_user_choice()
         {
                 if (seats_status[2][0] == 1)
                 {
-                        choices = "Seat C1 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat C1 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[2][0] == 2)
+{
+        choices = "Seat C1 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clrc1 = "\033[32m";
@@ -659,8 +703,12 @@ void filter_user_choice()
         {
                 if (seats_status[2][1] == 1)
                 {
-                        choices = "Seat C2 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat C2 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[2][1] == 2)
+{
+        choices = "Seat C2 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clrc2 = "\033[32m";
@@ -673,8 +721,12 @@ void filter_user_choice()
         {
                 if (seats_status[2][2] == 1)
                 {
-                        choices = "Seat C3 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat C3 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[2][2] == 2)
+{
+        choices = "Seat C3 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clrc3 = "\033[32m";
@@ -687,8 +739,12 @@ void filter_user_choice()
         {
                 if (seats_status[2][3] == 1)
                 {
-                        choices = "Seat C4 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat C4 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[2][3] == 2)
+{
+        choices = "Seat C4 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clrc4 = "\033[32m";
@@ -701,8 +757,12 @@ void filter_user_choice()
         {
                 if (seats_status[2][4] == 1)
                 {
-                        choices = "Seat C5 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat C5 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[2][4] == 2)
+{
+        choices = "Seat C5 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clrc5 = "\033[32m";
@@ -715,8 +775,12 @@ void filter_user_choice()
         {
                 if (seats_status[3][0] == 1)
                 {
-                        choices = "Seat D1 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat D1 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[3][0] == 2)
+{
+        choices = "Seat D1 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clrd1 = "\033[32m";
@@ -729,8 +793,12 @@ void filter_user_choice()
         {
                 if (seats_status[3][1] == 1)
                 {
-                        choices = "Seat D2 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat D2 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[3][1] == 2)
+{
+        choices = "Seat D2 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clrd2 = "\033[32m";
@@ -743,8 +811,12 @@ void filter_user_choice()
         {
                 if (seats_status[3][2] == 1)
                 {
-                        choices = "Seat D3 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat D3 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[3][2] == 2)
+{
+        choices = "Seat D3 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clrd3 = "\033[32m";
@@ -757,8 +829,12 @@ void filter_user_choice()
         {
                 if (seats_status[3][3] == 1)
                 {
-                        choices = "Seat D4 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat D4 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[3][3] == 2)
+{
+        choices = "Seat D4 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clrd4 = "\033[32m";
@@ -771,8 +847,12 @@ void filter_user_choice()
         {
                 if (seats_status[3][4] == 1)
                 {
-                        choices = "Seat D5 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat D5 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[3][4] == 2)
+{
+        choices = "Seat D5 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clrd5 = "\033[32m";
@@ -785,8 +865,12 @@ void filter_user_choice()
         {
                 if (seats_status[4][0] == 1)
                 {
-                        choices = "Seat E1 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat E1 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[4][0] == 2)
+{
+        choices = "Seat E1 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clre1 = "\033[32m";
@@ -799,8 +883,12 @@ void filter_user_choice()
         {
                 if (seats_status[4][1] == 1)
                 {
-                        choices = "Seat E2 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat E2 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[4][1] == 2)
+{
+        choices = "Seat E2 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clre2 = "\033[32m";
@@ -813,8 +901,12 @@ void filter_user_choice()
         {
                 if (seats_status[4][2] == 1)
                 {
-                        choices = "Seat E3 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat E3 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[4][2] == 2)
+{
+        choices = "Seat E3 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clre3 = "\033[32m";
@@ -827,8 +919,12 @@ void filter_user_choice()
         {
                 if (seats_status[4][3] == 1)
                 {
-                        choices = "Seat E4 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat E4 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[4][3] == 2)
+{
+        choices = "Seat E4 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clre4 = "\033[32m";
@@ -841,8 +937,12 @@ void filter_user_choice()
         {
                 if (seats_status[4][4] == 1)
                 {
-                        choices = "Seat E5 ha already been reserved. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
+                        choices = "Seat E5 has already been selected. \n\'CON\' -- Confirm, \'RET\' -- Return, \'REM\' -- Remove";
                 }
+                else if (seats_status[4][4] == 2)
+{
+        choices = "Seat E5 has already been reserved. \n'CON' -- Confirm, 'RET' -- Return, 'REM' -- Remove";
+}
                 else
                 {
                         clre5 = "\033[32m";
@@ -1210,127 +1310,127 @@ void filter_user_choice()
 			message = "Pick your movie:\n";
 			genre_filter = "1";
 			seats_reserved = 0;
-			if (seats_status[0][0] == 1 || seats_status[0][0] == 2)
+			if (seats_status[0][0] == 1)
 			{
 			clra1 = "";
 			seats_status[0][0] = 0;
 			}
-			if (seats_status[0][1] == 1 || seats_status[0][1] == 2)
+			if (seats_status[0][1] == 1)
 			{
 			clra2 = "";
 			seats_status[0][1] = 0;
 			}
-			if (seats_status[0][2] == 1 || seats_status[0][2] == 2)
+			if (seats_status[0][2] == 1)
 			{
 			clra3 = "";
 			seats_status[0][2] = 0;
 			}
-			if (seats_status[0][3] == 1 || seats_status[0][3] == 2)
+			if (seats_status[0][3] == 1)
 			{
 			clra4 = "";
 			seats_status[0][3] = 0;
 			}
-			if (seats_status[0][4] == 1 || seats_status[0][4] == 2)
+			if (seats_status[0][4] == 1)
 			{
 			clra5 = "";
 			seats_status[0][4] = 0;
 			}
-			if (seats_status[1][0] == 1 || seats_status[1][0] == 2)
+			if (seats_status[1][0] == 1)
 			{
 			clrb1 = "";
 			seats_status[1][0] = 0;
 			}
-			if (seats_status[1][1] == 1 || seats_status[1][1] == 2)
+			if (seats_status[1][1] == 1)
 			{
 			clrb2 = "";
 			seats_status[1][1] = 0;
 			}
-			if (seats_status[1][2] == 1 || seats_status[1][2] == 2)
+			if (seats_status[1][2] == 1)
 			{
 			clrb3 = "";
 			seats_status[1][2] = 0;
 			}
-			if (seats_status[1][3] == 1 || seats_status[1][3] == 2)
+			if (seats_status[1][3] == 1)
 			{
 			clrb4 = "";
 			seats_status[1][3] = 0;
 			}
-			if (seats_status[1][4] == 1 || seats_status[1][4] == 2)
+			if (seats_status[1][4] == 1)
 			{
 			clrb5 = "";
 			seats_status[1][4] = 0;
 			}
-			if (seats_status[2][0] == 1 || seats_status[2][0] == 2)
+			if (seats_status[2][0] == 1)
 			{
 			clrc1 = "";
 			seats_status[2][0] = 0;
 			}
-			if (seats_status[2][1] == 1 || seats_status[2][1] == 2)
+			if (seats_status[2][1] == 1)
 			{
 			clrc2 = "";
 			seats_status[2][1] = 0;
 			}
-			if (seats_status[2][2] == 1 || seats_status[2][2] == 2)
+			if (seats_status[2][2] == 1)
 			{
 			clrc3 = "";
 			seats_status[2][2] = 0;
 			}
-			if (seats_status[2][3] == 1 || seats_status[2][3] == 2)
+			if (seats_status[2][3] == 1)
 			{
 			clrc4 = "";
 			seats_status[2][3] = 0;
 			}
-			if (seats_status[2][4] == 1 || seats_status[2][4] == 2)
+			if (seats_status[2][4] == 1)
 			{
 			clrc5 = "";
 			seats_status[2][4] = 0;
 			}
-			if (seats_status[3][0] == 1 || seats_status[3][0] == 2)
+			if (seats_status[3][0] == 1)
 			{
 			clrd1 = "";
 			seats_status[3][0] = 0;
 			}
-			if (seats_status[3][1] == 1 || seats_status[3][1] == 2)
+			if (seats_status[3][1] == 1)
 			{
 			clrd2 = "";
 			seats_status[3][1] = 0;
 			}
-			if (seats_status[3][2] == 1 || seats_status[3][2] == 2)
+			if (seats_status[3][2] == 1)
 			{
 			clrd3 = "";
 			seats_status[3][2] = 0;
 			}
-			if (seats_status[3][3] == 1 || seats_status[3][3] == 2)
+			if (seats_status[3][3] == 1)
 			{
 			clrd4 = "";
 			seats_status[3][3] = 0;
 			}
-			if (seats_status[3][4] == 1 || seats_status[3][4] == 2)
+			if (seats_status[3][4] == 1)
 			{
 			clrd5 = "";
 			seats_status[3][4] = 0;
 			}
-			if (seats_status[4][0] == 1 || seats_status[4][0] == 2)
+			if (seats_status[4][0] == 1)
 			{
 			clre1 = "";
 			seats_status[4][0] = 0;
 			}
-			if (seats_status[4][1] == 1 || seats_status[4][1] == 2)
+			if (seats_status[4][1] == 1)
 			{
 			clre2 = "";
 			seats_status[4][1] = 0;
 			}
-			if (seats_status[4][2] == 1 || seats_status[4][2] == 2)
+			if (seats_status[4][2] == 1)
 			{
 			clre3 = "";
 			seats_status[4][2] = 0;
 			}
-			if (seats_status[4][3] == 1 || seats_status[4][3] == 2)
+			if (seats_status[4][3] == 1)
 			{
 			clre4 = "";
 			seats_status[4][3] = 0;
 			}
-			if (seats_status[4][4] == 1 || seats_status[4][4] == 2)
+			if (seats_status[4][4] == 1)
 			{
 			clre5 = "";
 			seats_status[4][4] = 0;
