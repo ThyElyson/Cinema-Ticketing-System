@@ -374,6 +374,131 @@ void filter_user_choice()
 		{
 				poster_mode = true;
 				reservation_mode = false;
+				if (seats_status[0][0] == 1)
+				{
+				clra1 = "\033[0m";
+				seats_status[0][0] = 0;
+				}
+				if (seats_status[0][1] == 1)
+				{
+				clra2 = "\033[0m";
+				seats_status[0][1] = 0;
+				}
+				if (seats_status[0][2] == 1)
+				{
+				clra3 = "\033[0m";
+				seats_status[0][2] = 0;
+				}
+				if (seats_status[0][3] == 1)
+				{
+				clra4 = "\033[0m";
+				seats_status[0][3] = 0;
+				}
+				if (seats_status[0][4] == 1)
+				{
+				clra5 = "\033[0m";
+				seats_status[0][4] = 0;
+				}
+				if (seats_status[1][0] == 1)
+				{
+				clrb1 = "\033[0m";
+				seats_status[1][0] = 0;
+				}
+				if (seats_status[1][1] == 1)
+				{
+				clrb2 = "\033[0m";
+				seats_status[1][1] = 0;
+				}
+				if (seats_status[1][2] == 1)
+				{
+				clrb3 = "\033[0m";
+				seats_status[1][2] = 0;
+				}
+				if (seats_status[1][3] == 1)
+				{
+				clrb4 = "\033[0m";
+				seats_status[1][3] = 0;
+				}
+				if (seats_status[1][4] == 1)
+				{
+				clrb5 = "\033[0m";
+				seats_status[1][4] = 0;
+				}
+				if (seats_status[2][0] == 1)
+				{
+				clrc1 = "\033[0m";
+				seats_status[2][0] = 0;
+				}
+				if (seats_status[2][1] == 1)
+				{
+				clrc2 = "\033[0m";
+				seats_status[2][1] = 0;
+				}
+				if (seats_status[2][2] == 1)
+				{
+				clrc3 = "\033[0m";
+				seats_status[2][2] = 0;
+				}
+				if (seats_status[2][3] == 1)
+				{
+				clrc4 = "\033[0m";
+				seats_status[2][3] = 0;
+				}
+				if (seats_status[2][4] == 1)
+				{
+				clrc5 = "\033[0m";
+				seats_status[2][4] = 0;
+				}
+				if (seats_status[3][0] == 1)
+				{
+				clrd1 = "\033[0m";
+				seats_status[3][0] = 0;
+				}
+				if (seats_status[3][1] == 1)
+				{
+				clrd2 = "\033[0m";
+				seats_status[3][1] = 0;
+				}
+				if (seats_status[3][2] == 1)
+				{
+				clrd3 = "\033[0m";
+				seats_status[3][2] = 0;
+				}
+				if (seats_status[3][3] == 1)
+				{
+				clrd4 = "\033[0m";
+				seats_status[3][3] = 0;
+				}
+				if (seats_status[3][4] == 1)
+				{
+				clrd5 = "\033[0m";
+				seats_status[3][4] = 0;
+				}
+				if (seats_status[4][0] == 1)
+				{
+				clre1 = "\033[0m";
+				seats_status[4][0] = 0;
+				}
+				if (seats_status[4][1] == 1)
+				{
+				clre2 = "\033[0m";
+				seats_status[4][1] = 0;
+				}
+				if (seats_status[4][2] == 1)
+				{
+				clre3 = "\033[0m";
+				seats_status[4][2] = 0;
+				}
+				if (seats_status[4][3] == 1)
+				{
+				clre4 = "\033[0m";
+				seats_status[4][3] = 0;
+				}
+				if (seats_status[4][4] == 1)
+				{
+				clre5 = "\033[0m";
+				seats_status[4][4] = 0;
+				}
 		}
         else if (user_choice == "a1" || user_choice == "A1")
         {
@@ -937,6 +1062,131 @@ void filter_user_choice()
    		 			choices = "Enter any key to leave the app.";
    		 			payment_mode = false;
    		 			exit_mode = true;
+					if (seats_status[0][0] == 1)
+					{
+					clra1 = "\033[34m";
+					seats_status[0][0] = 2;
+					}
+					if (seats_status[0][1] == 1)
+					{
+					clra2 = "\033[34m";
+					seats_status[0][1] = 2;
+					}
+					if (seats_status[0][2] == 1)
+					{
+					clra3 = "\033[34m";
+					seats_status[0][2] = 2;
+					}
+					if (seats_status[0][3] == 1)
+					{
+					clra4 = "\033[34m";
+					seats_status[0][3] = 2;
+					}
+					if (seats_status[0][4] == 1)
+					{
+					clra5 = "\033[34m";
+					seats_status[0][4] = 2;
+					}
+					if (seats_status[1][0] == 1)
+					{
+					clrb1 = "\033[34m";
+					seats_status[1][0] = 2;
+					}
+					if (seats_status[1][1] == 1)
+					{
+					clrb2 = "\033[34m";
+					seats_status[1][1] = 2;
+					}
+					if (seats_status[1][2] == 1)
+					{
+					clrb3 = "\033[34m";
+					seats_status[1][2] = 2;
+					}
+					if (seats_status[1][3] == 1)
+					{
+					clrb4 = "\033[34m";
+					seats_status[1][3] = 2;
+					}
+					if (seats_status[1][4] == 1)
+					{
+					clrb5 = "\033[34m";
+					seats_status[1][4] = 2;
+					}
+					if (seats_status[2][0] == 1)
+					{
+					clrc1 = "\033[34m";
+					seats_status[2][0] = 2;
+					}
+					if (seats_status[2][1] == 1)
+					{
+					clrc2 = "\033[34m";
+					seats_status[2][1] = 2;
+					}
+					if (seats_status[2][2] == 1)
+					{
+					clrc3 = "\033[34m";
+					seats_status[2][2] = 2;
+					}
+					if (seats_status[2][3] == 1)
+					{
+					clrc4 = "\033[34m";
+					seats_status[2][3] = 2;
+					}
+					if (seats_status[2][4] == 1)
+					{
+					clrc5 = "\033[34m";
+					seats_status[2][4] = 2;
+					}
+					if (seats_status[3][0] == 1)
+					{
+					clrd1 = "\033[34m";
+					seats_status[3][0] = 2;
+					}
+					if (seats_status[3][1] == 1)
+					{
+					clrd2 = "\033[34m";
+					seats_status[3][1] = 2;
+					}
+					if (seats_status[3][2] == 1)
+					{
+					clrd3 = "\033[34m";
+					seats_status[3][2] = 2;
+					}
+					if (seats_status[3][3] == 1)
+					{
+					clrd4 = "\033[34m";
+					seats_status[3][3] = 2;
+					}
+					if (seats_status[3][4] == 1)
+					{
+					clrd5 = "\033[34m";
+					seats_status[3][4] = 2;
+					}
+					if (seats_status[4][0] == 1)
+					{
+					clre1 = "\033[34m";
+					seats_status[4][0] = 2;
+					}
+					if (seats_status[4][1] == 1)
+					{
+					clre2 = "\033[34m";
+					seats_status[4][1] = 2;
+					}
+					if (seats_status[4][2] == 1)
+					{
+					clre3 = "\033[34m";
+					seats_status[4][2] = 2;
+					}
+					if (seats_status[4][3] == 1)
+					{
+					clre4 = "\033[34m";
+					seats_status[4][3] = 2;
+					}
+					if (seats_status[4][4] == 1)
+					{
+					clre5 = "\033[34m";
+					seats_status[4][4] = 2;
+					}
    	 			}
 		    	else 
   				{
