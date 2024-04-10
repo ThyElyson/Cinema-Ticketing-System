@@ -374,6 +374,7 @@ void filter_user_choice()
 		{
 				poster_mode = true;
 				reservation_mode = false;
+				seats_reserved = 0;
 				if (seats_status[0][0] == 1)
 				{
 				clra1 = "\033[0m";
