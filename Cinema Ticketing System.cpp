@@ -1060,7 +1060,7 @@ void filter_user_choice()
 		    	if (stoi(user_choice) >= (23*seats_reserved))
 			   	{
 		    		message = "Thank you for your purchase. \n Please take your $" + to_string( stoi(user_choice) - (23*seats_reserved) ) + " change.";
-   		 			choices = "Enter any key to leave the app.";
+   		 			choices = "Enter \'YES\' to leave the app. \'RET\' -- Return to cinema";
    		 			payment_mode = false;
    		 			exit_mode = true;
 					if (seats_status[0][0] == 1)
@@ -1202,9 +1202,145 @@ void filter_user_choice()
 	}
 	else if (exit_mode == true)
 	{
-		
-		system("pause");
-		app_is_running = false;
+		if (user_choice == "Ret" || user_choice == "ret" || user_choice == "RET")	
+		{
+			reset_message("all");
+			exit_mode = false;
+			poster_mode = true;
+			message = "Pick your movie:\n";
+			genre_filter = "1";
+			seats_reserved = 0;
+			if (seats_status[0][0] == 1 || seats_status[0][0] == 2)
+			{
+			clra1 = "";
+			seats_status[0][0] = 0;
+			}
+			if (seats_status[0][1] == 1 || seats_status[0][1] == 2)
+			{
+			clra2 = "";
+			seats_status[0][1] = 0;
+			}
+			if (seats_status[0][2] == 1 || seats_status[0][2] == 2)
+			{
+			clra3 = "";
+			seats_status[0][2] = 0;
+			}
+			if (seats_status[0][3] == 1 || seats_status[0][3] == 2)
+			{
+			clra4 = "";
+			seats_status[0][3] = 0;
+			}
+			if (seats_status[0][4] == 1 || seats_status[0][4] == 2)
+			{
+			clra5 = "";
+			seats_status[0][4] = 0;
+			}
+			if (seats_status[1][0] == 1 || seats_status[1][0] == 2)
+			{
+			clrb1 = "";
+			seats_status[1][0] = 0;
+			}
+			if (seats_status[1][1] == 1 || seats_status[1][1] == 2)
+			{
+			clrb2 = "";
+			seats_status[1][1] = 0;
+			}
+			if (seats_status[1][2] == 1 || seats_status[1][2] == 2)
+			{
+			clrb3 = "";
+			seats_status[1][2] = 0;
+			}
+			if (seats_status[1][3] == 1 || seats_status[1][3] == 2)
+			{
+			clrb4 = "";
+			seats_status[1][3] = 0;
+			}
+			if (seats_status[1][4] == 1 || seats_status[1][4] == 2)
+			{
+			clrb5 = "";
+			seats_status[1][4] = 0;
+			}
+			if (seats_status[2][0] == 1 || seats_status[2][0] == 2)
+			{
+			clrc1 = "";
+			seats_status[2][0] = 0;
+			}
+			if (seats_status[2][1] == 1 || seats_status[2][1] == 2)
+			{
+			clrc2 = "";
+			seats_status[2][1] = 0;
+			}
+			if (seats_status[2][2] == 1 || seats_status[2][2] == 2)
+			{
+			clrc3 = "";
+			seats_status[2][2] = 0;
+			}
+			if (seats_status[2][3] == 1 || seats_status[2][3] == 2)
+			{
+			clrc4 = "";
+			seats_status[2][3] = 0;
+			}
+			if (seats_status[2][4] == 1 || seats_status[2][4] == 2)
+			{
+			clrc5 = "";
+			seats_status[2][4] = 0;
+			}
+			if (seats_status[3][0] == 1 || seats_status[3][0] == 2)
+			{
+			clrd1 = "";
+			seats_status[3][0] = 0;
+			}
+			if (seats_status[3][1] == 1 || seats_status[3][1] == 2)
+			{
+			clrd2 = "";
+			seats_status[3][1] = 0;
+			}
+			if (seats_status[3][2] == 1 || seats_status[3][2] == 2)
+			{
+			clrd3 = "";
+			seats_status[3][2] = 0;
+			}
+			if (seats_status[3][3] == 1 || seats_status[3][3] == 2)
+			{
+			clrd4 = "";
+			seats_status[3][3] = 0;
+			}
+			if (seats_status[3][4] == 1 || seats_status[3][4] == 2)
+			{
+			clrd5 = "";
+			seats_status[3][4] = 0;
+			}
+			if (seats_status[4][0] == 1 || seats_status[4][0] == 2)
+			{
+			clre1 = "";
+			seats_status[4][0] = 0;
+			}
+			if (seats_status[4][1] == 1 || seats_status[4][1] == 2)
+			{
+			clre2 = "";
+			seats_status[4][1] = 0;
+			}
+			if (seats_status[4][2] == 1 || seats_status[4][2] == 2)
+			{
+			clre3 = "";
+			seats_status[4][2] = 0;
+			}
+			if (seats_status[4][3] == 1 || seats_status[4][3] == 2)
+			{
+			clre4 = "";
+			seats_status[4][3] = 0;
+			}
+			if (seats_status[4][4] == 1 || seats_status[4][4] == 2)
+			{
+			clre5 = "";
+			seats_status[4][4] = 0;
+			}
+		}
+		else
+		{
+			system("pause");
+			app_is_running = false;
+		}
 	}
 }
 
