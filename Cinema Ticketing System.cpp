@@ -22,12 +22,10 @@ int main()
 	show_title();
 	system("pause");
 	do
-	{	
+	{
 		cls();
 		if (poster_mode == true)
-		{
 			show_posters();
-		}
 		else
 			show_seats();
 		show_message();
@@ -315,6 +313,7 @@ void filter_user_choice()
 		if (user_choice == "Gen" || user_choice == "gen" || user_choice == "GEN")
 		{
 			cls();
+			genre_filter = "1";
 			show_posters();
 			reset_message("all");
 			message = "Pick your genre: \'COM\' -- Comedy, \'ACT\' -- Action, \'HOR\' -- Horror";
@@ -325,6 +324,7 @@ void filter_user_choice()
 		else if (user_choice == "Age" || user_choice == "age" || user_choice == "AGE")
 		{
 			cls();
+			genre_filter = "1";
 			show_posters();
 			reset_message("all");
 			message = "Pick your age group: \'G\' -- Kids, \'PG\' -- Teens, \'SPG\' -- Adults";
